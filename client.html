@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonticons/css/font-awesome.css">
+    <link rel="stylesheet" href="fonticons/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Liste des clients</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 banga"></div>
+            <div class="col-lg-8"></div>
+            <div class="col-lg-2">
+                <div class="dropdown">
+                    <span><i class="fa fa-user"></i>  <i>Toky Mahandry</i> </span>
+                    <div class="dropdown-content">
+                        <p><i class="fa fa-cog"></i> <a href="#">Paramètre</a></p>
+                        <p><i class="fa fa-sign-out"></i> <a href="index.html">Déconnection</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header END-->
+
+    <!-- milieu -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 menu">
+                <h6>GESTION DES ARTICLES</h6>
+                <nav class="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="article_list.html" class="nav-link"><i class="fa fa-home"></i> Approvisionnement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="article_stock.html" class="nav-link"><i class=" fa fa-cloud"></i> Gestion du stock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="article_caisse.html" class="nav-link"><i class=" fa fa-edit"></i> Gestion de la caisse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="charge_list.html" class="nav-link"><i class=" fa fa-globe"></i> Gestion des charges</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <h6>GESTION DES TIERS</h6>
+                <nav class="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="fournisseur.html" class="nav-link"><i class="fa fa-film"></i> Fournisseur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="client.html" class="nav-link activ"><i class="fa fa-inbox"></i> Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="banque.html" class="nav-link"><i class="fa fa-bookmark"></i> Banque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="membre.html" class="nav-link"><i class="fa fa-table"></i> Gestion des membres</a>
+                        </li>
+                    </ul>
+                </nav>
+               
+            </div>
+            <div class="col-lg-10 centre">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Liste des clients</h2>
+                        <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
+                    </div>
+                    <div class="card-body">
+                        
+                    <table class="table">
+                        <thead class="thead_table">
+                            <tr>
+                                <th>Réf. Client</th>
+                                <th>Nom</th>
+                                <th>Téléphone</th>
+                                <th>Adresse</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>RAMAMONJISOA Toky</td>
+                                <td>+261 32 33 333 33</td>
+                                <td>Mausolé</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>RAKOTOARISON David</td>
+                                <td>+261 33 33 777 69</td>
+                                <td>Analakely</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>RABE ARSON</td>
+                                <td>+261 33 56 888 33</td>
+                                <td>Mandroseza</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>RAHAINGO Benny</td>
+                                <td>+261 33 33 333 33</td>
+                                <td>Analakely</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>RABEANJARA Martin</td>
+                                <td>+261 33 33 333 33</td>
+                                <td>Soanierana</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <footer>
+                    <div class="bas_contact">
+                        <div class="bas_contenu">
+                            <a href="https://www.facebook.com/tokymahandry/"><i class="fa fa-facebook-square"></i> Facebook</a>
+                        </div>
+                        <div class="bas_contenu">
+                            <a href="https://www.twitter.com/tokymahandry/"><i class="fa fa-twitter-square"></i> Twitter</a>
+                        </div>
+                        <div class="bas_contenu">
+                            <a href="#"><i class="fa fa-linkedin-square"></i> Linkedin</a>
+                            
+                        </div>
+                        <div class="bas_contenu">
+                            <a href="#"><i class="fa fa-skype"></i> Skype</a> 
+                        </div>
+                        <div class="bas_contenu">
+                            <a href="mailto:mahandry001@gmail.com"> <i class="fa fa-envelope"></i> Mail</a>
+                        </div>
+                    </div>
+                    <i>Copyright 2020 - IT DESIGN</i>
+                </footer>
+            </div><!-- centre END -->
+            
+        </div>
+    
+    </div><!-- milieu END-->
+
+    
+</body>
+</html>
